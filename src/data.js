@@ -1,0 +1,7 @@
+// Contenido ilustrativo. Sustituir por el inventario y las fotografías de Doorvia.
+export const properties = [
+ {id:'casa-brisa',name:'Casa Brisa',destination:'Vallarta',location:'Puerto Vallarta, Jalisco',kind:'Casa completa',guests:6,beds:3,baths:3,tag:'Días junto al mar',image:'photo-1613490493576-7fde63acd811',description:'Un espacio abierto para bajar el ritmo. Terraza, alberca y rincones para compartir después de un día de playa.',amenities:['Alberca','Terraza','Cocina equipada','Wi-Fi']},
+ {id:'refugio-verde',name:'Refugio Verde',destination:'Guadalajara',location:'Guadalajara, Jalisco',kind:'Departamento',guests:4,beds:2,baths:2,tag:'La ciudad, a tu ritmo',image:'photo-1600210492486-724fe5c67fb0',description:'Luz natural, espacios tranquilos y una base cómoda para descubrir la ciudad. Para un fin de semana o una pausa más larga.',amenities:['Balcón','Cocina equipada','Wi-Fi','Área de trabajo']},
+ {id:'villa-palma',name:'Villa Palma',destination:'Vallarta',location:'Bahía de Banderas, Nayarit',kind:'Villa completa',guests:8,beds:4,baths:4,tag:'Tiempo para compartir',image:'photo-1600607687920-4e2a09cf159d',description:'Una casa para encontrarse sin prisas. Áreas amplias, sobremesas largas y espacio para disfrutar en grupo.',amenities:['Jardín','Terraza','Cocina equipada','Estacionamiento']}
+];
+export const photo = (id,width=1200) => `https://images.unsplash.com/${id}?auto=format&fit=crop&w=${width}&q=85`;
